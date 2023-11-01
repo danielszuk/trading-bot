@@ -8,5 +8,5 @@ This is a simple trading bot over cctx.
 - The Client has some short-term risk taking attitude, so he is willing to wait for a better price, but not too long.
 
 ## How to validate it
-The `index.ts` is **not a working bot**, it is there as an **example** to show the intended usage of the bot.
-To validate the bot implementation, **run the unit tests**.
+- The `index.ts` is **not a working bot**, it is there as an **example** to show the intended usage of the bot.
+- To validate the bot implementation, **run the unit tests** by `npm run test`.

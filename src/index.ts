@@ -4,7 +4,7 @@ import sellAtBestTime from "./sellAtBestTime";
 
 // Configure how much time we maximum have to sell our assets
 const sellingTimeframe = 1000 * 60 * 60 * 24 * 7; // 1 week in milliseconds
-let sellingDeadline: number | undefined;
+let sellingDeadline: number | undefined; // undefined means we are not in a selling period
 
 // Initialize Binance API in sandbox mode
 const exchange = new Binance();
