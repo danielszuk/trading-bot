@@ -1,6 +1,6 @@
 import { binance as Binance } from "ccxt";
 import cron from "node-cron";
-import { sellAtBestTime } from "./sellAtBestTime";
+import sellAtBestTime from "./sellAtBestTime";
 
 // Configure how much time we maximum have to sell our assets
 const sellingTimeframe = 1000 * 60 * 60 * 24 * 7; // 1 week in milliseconds
